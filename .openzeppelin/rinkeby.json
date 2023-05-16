@@ -1,0 +1,346 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xE351C85E1DC8673FD6D46c0B1388bbD651baD1d5",
+    "txHash": "0xb29d78f01312cf5e26ab509037a1dff5ad13877a8bd706a49a1cb60b1812b008",
+    "deployTransaction": {
+      "hash": "0xb29d78f01312cf5e26ab509037a1dff5ad13877a8bd706a49a1cb60b1812b008",
+      "type": 2,
+      "accessList": [],
+      "blockHash": "0xebe4d374a1a653dd48da27aa31d09f7549ee6281b92336ed7c68be7c96790afd",
+      "blockNumber": 10063340,
+      "transactionIndex": 7,
+      "confirmations": 1,
+      "from": "0x0E8125aE8373b79DB639196529bbF6dA8a366891",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x9502f91c"
+      },
+      "maxPriorityFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x9502f900"
+      },
+      "maxFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x9502f923"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x0762b4"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 2,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0x8963e59bc7a7a726ce6f1662da1bf5db442ccecad77c2fc734ef5c1a5c086939",
+      "s": "0x518789ebe3d95f13dc1ce4c80c39ef4f72ec3d28f2cc37b2e134a356093e6818",
+      "v": 1,
+      "creates": "0xE351C85E1DC8673FD6D46c0B1388bbD651baD1d5",
+      "chainId": 4
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xe6D75AD7360Ac8742AC654336d6dc4cbBa17506d",
+      "txHash": "0x3d323268106f5ca927ecba54b136a33a9bc31b6a393cddc375e8177159a78854",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1585b2287d5AAb4f87F4a0afd00F61795aa2010c",
+      "txHash": "0x6cdd74be1f32a5c138ca7ee54ccb5baa07030fc7e65fd25c6aae68e12a752ea7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x074A7596A05DaE9231DE6E2E48fa6dFB6609d001",
+      "txHash": "0x19061736cff2a29877d557292e11f1140b2a33877f71c521b6a2e6893ef6cefd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3CFa40Eb76553aF504C04Da06621E1f87a832D1F",
+      "txHash": "0x40532eecd25a28cf3e053be3184ce839a721e1516ea5ac73512a467d2e70c9bf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x82060a4f69D9769d9d20b6fe4E270B17962725d0",
+      "txHash": "0x6be63200a6f78db53ef419837a21bfe9ae525bc4ddaee88bff89270731241fe3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDCC1FD8E92B7604b9Fd26d082735C81a0120e76f",
+      "txHash": "0x800b4c0e7ff8aa622d376fd81a631aadb1978e4188355d4cb0b0b9e8dd8e8ad4",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "73ac9d2c07dfbc0469e14cfbc2eddd3f661c7f6b4f7b136737bb907be3057ac2": {
+      "address": "0x6416c36261dcB79Fb554C80781E16511ecD74e5a",
+      "txHash": "0x7a145f83ade1c30fe8d1f8c2ff62cf9c54dce459c23ee2e60ccce42f0d4205c7",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "TokenAvgPriceV1",
+            "label": "_dateCalc",
+            "type": "t_contract(CalcDate)1151",
+            "src": "contracts\\TokenAvgPriceV1.sol:12"
+          },
+          {
+            "contract": "TokenAvgPriceV1",
+            "label": "_priceInfos",
+            "type": "t_array(t_array(t_struct(PriceInfoPerDay)1167_storage)31_storage)12_storage",
+            "src": "contracts\\TokenAvgPriceV1.sol:20"
+          }
+        ],
+        "types": {
+          "t_contract(CalcDate)1151": {
+            "label": "contract CalcDate"
+          },
+          "t_array(t_array(t_struct(PriceInfoPerDay)1167_storage)31_storage)12_storage": {
+            "label": "struct TokenAvgPriceV1.PriceInfoPerDay[31][12]"
+          },
+          "t_array(t_struct(PriceInfoPerDay)1167_storage)31_storage": {
+            "label": "struct TokenAvgPriceV1.PriceInfoPerDay[31]"
+          },
+          "t_struct(PriceInfoPerDay)1167_storage": {
+            "label": "struct TokenAvgPriceV1.PriceInfoPerDay",
+            "members": [
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "totalPrice",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "f0f7caf45bb2ecd4e890cece296eff791cd8fb2de338562665cd1fbc232b8d85": {
+      "address": "0x8182281B22d3003D264728f8f7CeFEdc9d1428d1",
+      "txHash": "0x603d0edacde7e26243e2e4618e965266ab160867b844e05aa27012a68a801c2c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "TokenAvgPriceV2",
+            "label": "_dateCalc",
+            "type": "t_contract(CalcDate)1151",
+            "src": "contracts\\TokenAvgPriceV2.sol:12"
+          },
+          {
+            "contract": "TokenAvgPriceV2",
+            "label": "_priceInfos",
+            "type": "t_array(t_array(t_struct(PriceInfoPerDay)1614_storage)31_storage)12_storage",
+            "src": "contracts\\TokenAvgPriceV2.sol:20"
+          }
+        ],
+        "types": {
+          "t_contract(CalcDate)1151": {
+            "label": "contract CalcDate"
+          },
+          "t_array(t_array(t_struct(PriceInfoPerDay)1614_storage)31_storage)12_storage": {
+            "label": "struct TokenAvgPriceV2.PriceInfoPerDay[31][12]"
+          },
+          "t_array(t_struct(PriceInfoPerDay)1614_storage)31_storage": {
+            "label": "struct TokenAvgPriceV2.PriceInfoPerDay[31]"
+          },
+          "t_struct(PriceInfoPerDay)1614_storage": {
+            "label": "struct TokenAvgPriceV2.PriceInfoPerDay",
+            "members": [
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "totalPrice",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "75303682196b4b80b6347f66301ae3167f13c2c853399d4123a179b4163569c5": {
+      "address": "0x608b1F2175322d5c29c2740D1c61E07C305D1a30",
+      "txHash": "0x688473c4e03c757008bb1e825868af8c4d75d923957258e48d1d767e6ea8a45a",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "TokenAvgPriceV3",
+            "label": "_dateCalc",
+            "type": "t_contract(CalcDate)1151",
+            "src": "contracts\\TokenAvgPriceV3.sol:12"
+          },
+          {
+            "contract": "TokenAvgPriceV3",
+            "label": "_priceInfos",
+            "type": "t_array(t_array(t_struct(PriceInfoPerDay)2056_storage)31_storage)12_storage",
+            "src": "contracts\\TokenAvgPriceV3.sol:20"
+          }
+        ],
+        "types": {
+          "t_contract(CalcDate)1151": {
+            "label": "contract CalcDate"
+          },
+          "t_array(t_array(t_struct(PriceInfoPerDay)2056_storage)31_storage)12_storage": {
+            "label": "struct TokenAvgPriceV3.PriceInfoPerDay[31][12]"
+          },
+          "t_array(t_struct(PriceInfoPerDay)2056_storage)31_storage": {
+            "label": "struct TokenAvgPriceV3.PriceInfoPerDay[31]"
+          },
+          "t_struct(PriceInfoPerDay)2056_storage": {
+            "label": "struct TokenAvgPriceV3.PriceInfoPerDay",
+            "members": [
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "totalPrice",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
